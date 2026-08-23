@@ -4,14 +4,14 @@ import './globals.css';
 export const metadata: Metadata = {
   metadataBase: new URL('https://adpilot-ai-strategy.chengyilun213.chatgpt.site'),
   title: 'AdPilot · 广告投放智能策略助手',
-  description: '从 Campaign Brief 到可执行媒介策略的 AI 工作台',
+  description: '连接真实案例库，从 Campaign Brief 生成可追溯、可编辑、可导出的媒介策略',
   icons: {
     icon: '/icon.png',
     apple: '/icon.png',
   },
   openGraph: {
     title: 'AdPilot · 广告投放智能策略助手',
-    description: '让每一份 Brief，都更接近增长答案。',
+    description: '让策略有出处，让判断有依据。',
     type: 'website',
     locale: 'zh_CN',
     images: [{ url: '/og.png', width: 1200, height: 630, alt: 'AdPilot 广告投放智能策略助手' }],
@@ -19,7 +19,7 @@ export const metadata: Metadata = {
   twitter: {
     card: 'summary_large_image',
     title: 'AdPilot · 广告投放智能策略助手',
-    description: '让每一份 Brief，都更接近增长答案。',
+    description: '让策略有出处，让判断有依据。',
     images: ['/og.png'],
   },
 };
