@@ -5,6 +5,10 @@ export const metadata: Metadata = {
   metadataBase: new URL('https://adpilot-ai-strategy.chengyilun213.chatgpt.site'),
   title: 'AdPilot · 广告投放智能策略助手',
   description: '从 Campaign Brief 到可执行媒介策略的 AI 工作台',
+  icons: {
+    icon: '/icon.png',
+    apple: '/icon.png',
+  },
   openGraph: {
     title: 'AdPilot · 广告投放智能策略助手',
     description: '让每一份 Brief，都更接近增长答案。',
