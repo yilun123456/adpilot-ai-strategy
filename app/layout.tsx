@@ -2,6 +2,7 @@ import type { Metadata } from 'next';
 import './globals.css';
 
 export const metadata: Metadata = {
+  metadataBase: new URL('https://adpilot-ai-strategy.chengyilun213.chatgpt.site'),
   title: 'AdPilot · 广告投放智能策略助手',
   description: '从 Campaign Brief 到可执行媒介策略的 AI 工作台',
   openGraph: {
